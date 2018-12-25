@@ -32,7 +32,7 @@ public class EmployeeController {
 	
 	@GetMapping(value = "/test")
 	public String testApplication(){
-		return "Application is running";
+		return "Application is not running";
 	}
 	
 
